@@ -1,3 +1,8 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from ai_engine.groq_client import call_groq_api
+
 from ai_engine.groq_client import call_groq_api
 import json
 
