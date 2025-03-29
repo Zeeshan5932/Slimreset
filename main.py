@@ -1,4 +1,9 @@
 import streamlit as st
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))  # Ensure correct path
+
 from sections import home, fitness_planner, generate_workout, insights
 
 # App Title
